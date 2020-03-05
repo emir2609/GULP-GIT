@@ -1,5 +1,81 @@
-@import "templates/normalize"
-@import "templates/variables"
-@import "templates/interface"
-@import "templates/grid"
-@import "templates/header"
+$grey1: #131313
+$grey2:#666666
+$white: #fff
+$blue: #009adf
+$grey-trans01: rgba(255, 255, 255, 0.1)
+$grey-trans09: rgba(255, 255, 255, 0.9)
+
+
+.footer
+  margin-top: 60px
+  background-color: $grey1
+  padding: 59px 0
+  color: $grey2
+
+.footer-policy-link
+  font-size: 12px
+
+.footer
+  p
+    margin-bottom: 14px
+
+.footer
+  a
+    color: $grey2
+    text-decoration: none
+
+.footer
+  a:hover
+    color: $white
+
+.footer
+    small
+      display: block
+      margin-top: 56px
+      line-height: 16px
+      font-size: 10px
+      max-width: 80%
+
+.footer
+  ul
+    padding: 0
+    list-style: none
+
+.footer
+  ul
+    li
+      line-height: 32px
+
+.footer-contacts, .footer-social-links
+  text-align: right
+
+.footer-contacts
+  &_phone
+    font-weight: 400
+    font-size: 20px
+    color: $blue
+
+.footer-social-links
+  li
+    display: inline-block
+
+.footer-social-links
+  li
+    a
+      display: inline-block
+      width: 42px
+      height: 42px
+      background-color: $grey-trans01
+      text-align: center
+      border-radius: 50%
+      line-height: 42px
+      margin-left: 10px
+      -webkit-transition: all 0.2s
+      transition: all 0.2s
+
+.footer-social-links
+  li
+    a:hover
+      background-color: $grey-trans09
+      color: $grey1
+      

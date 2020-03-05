@@ -13,7 +13,7 @@ function browser() {
 }
 
 function watchFiles() {
-    watch("src/sass/**/*.sass", css);
+    watch("src/sass/*.sass", css);
     watch("src/*.html").on('change', browserSync.reload);
 }
 
