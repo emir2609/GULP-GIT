@@ -1,0 +1,98 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 10rem auto 12.5rem auto;
+}
+
+.cards-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin: 0 auto 10rem auro;
+}
+
+.card {
+  height: 36.6rem;
+  width: 26.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3rem;
+}
+
+.image {
+  background-color: #ffffff;
+}
+
+.discr {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.price {
+  margin-top: 2.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+button {
+  margin-top: 2.5rem;
+  width: 20rem;
+  height: 5.5rem;
+  border: 1px solid #23bac1;
+  color: #23bac1;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

@@ -1,0 +1,187 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+}
+
+.header {
+  height: 1081px;
+  margin-top: 50px;
+  background-color: #006900;
+}
+
+.header__container {
+  color: #ffffff;
+}
+
+.header__title {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.header__subtitle {
+  text-align: center;
+  margin-top: 46px;
+  margin-bottom: 90px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #1a1820;
+}
+
+.header1__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 1280px;
+}
+
+.header1__card-wrap {
+  height: 660px;
+  width: 400px;
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+}
+
+.header1__card-title {
+  margin-top: 50px;
+  margin-bottom: 33px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.header1__card-image {
+  margin: 0 50px;
+}
+
+.header1__card-price {
+  margin-bottom: 0;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.header1__card-price1 {
+  font-size: 30px;
+}
+
+.header1__card-discr {
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.header1__card-button {
+  margin-top: auto;
+  margin-bottom: 45px;
+  padding: 26px 60px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  border: 1px solid #ffba15;
+  background-color: #ffb504;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f5ad00), to(#ffb504));
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%);
+}
+
+.second {
+  max-width: 1920px;
+  height: 703px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #006900;
+}
+
+.second1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.second1__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 329px;
+  height: 174px;
+}
+
+.second1__image1 {
+  width: 100%;
+}
+
+.second1__button {
+  margin-top: 49px;
+  padding: 20px 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  border: 1px solid #ffba15;
+  background-color: #ffb504;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f5ad00), to(#ffb504));
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%);
+}

@@ -1,0 +1,65 @@
+body {
+  background-color: Wheat;
+}
+
+h1 {
+  text-align: center;
+  background-color: Tan;
+}
+
+h2, h3, h4, h5, h6 {
+  background-color: Tan;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+li, ul {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  background-color: Beige;
+  text-align: right;
+}
+
+p, span, .italic, .underline, .line-through {
+  background-color: #fff;
+}
+
+.bordered {
+  position: fixed; /* Фиксированное положение */
+  right: 10px; /* Расстояние от правого края окна браузера */
+  top: 29%; /* Расстояние сверху */
+  border: double;
+  text-align: right;
+  list-style-position: inside;
+  background-color: Beige;
+}
+
+.in-menu {
+  margin: 0;
+  text-align: center;
+}
+
+.margin {
+  margin-right: 20px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}

@@ -1,0 +1,192 @@
+$bg-dark-color: #131313
+$text-white-color: #ffffff
+$text-gold-color: #E3B873
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  font-size: 10px
+
+body
+  widht: 1440px
+  font-family: arial, sans-serif
+
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 83px
+  background-color: $bg-dark-color
+
+// 1-й контейнер
+.header__logo
+  text-align: left
+  width: 180px
+  margin: 36px 0 36px 82px
+  color: $text-gold-color
+  font-size: 14px
+  text-transform: uppercase
+
+// 2-й контейнер
+.header__menu
+  width: 536px
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+.menu__item
+  color: $text-white-color
+  text-decoration: none
+  font-size: 14px
+  text-transform: uppercase
+
+
+.menu__item:hover
+  color: $text-gold-color
+
+// 3-й контейнер
+.header__contacts
+  width: 332px
+  margin-right: 70px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.header__phone
+  margin-right: 25px
+
+.header__phone__link
+  color: $text-gold-color
+  font-size: 14px
+  text-transform: uppercase
+
+.header__button
+
+.header__button__btn
+  padding: 14px 21px
+  background-color: $text-gold-color
+  color: $text-white-color
+  font-size: 14px
+  text-transform: uppercase
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2)
+  border-radius: 4px
+  border: 0
+
+.main
+  position: relative
+  height: 707px
+  width: 100%
+  display: flex
+
+.main__instagram
+  height: 707px
+  width: 82px
+  background-color: $bg-dark-color
+
+.main__instagram__text
+  position: relative
+  text-align: center
+  margin: 227px 35px 391px 35px
+  color: $text-gold-color
+  font-size: 14px
+  text-transform: uppercase
+  text-decoration: none
+  writing-mode: vertical-rl
+
+.main__instagram__text:after
+  content: ''
+  position: absolute
+  width: 55px
+  border-top: 1px solid $text-gold-color
+  right: -20px
+  margin-top: 40px
+  transform: rotate(90deg)
+
+.main__text
+  height: 707px
+  width: calc( 100% - 82px )
+  display: flex
+  flex-direction: column
+  justify-content: center
+  background: url("../img/1bg.png") no-repeat center
+  background-size: cover
+
+.main__text__wrap
+  margin-left: 63px
+  color: $text-white-color
+
+.main__text__header
+  width: 435px
+
+.main__text__header__h1
+  font-size: 40px
+  line-height: 53px
+  text-transform: uppercase
+
+.main__text__header__span
+  font-size: 40px
+  line-height: 53px
+  text-transform: uppercase
+  color: $text-gold-color
+
+.main__text__discr
+  width: 504px
+  font-size: 20px
+  margin-top: 19px
+
+.main__text__button
+  margin-top: 40px
+
+.main__text__button__btn1
+  margin-right: 20px
+  padding: 18px 23px
+  color: $text-white-color
+  font-size: 13px
+  text-align: center
+  text-transform: uppercase
+  background-color: $text-gold-color
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+  border-radius: 4px
+  border: 0
+
+.main__text__button__btn2
+  padding: 18px 26px
+  color: $text-white-color
+  background-color: rgba(0, 0, 0, 0)
+  font-size: 13px
+  text-align: center
+  text-transform: uppercase
+  border: 1px solid $text-white-color
+  border-radius: 4px
+
+.main__text__corner
+  position: absolute
+  top: 658px
+  left: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 247px
+  height: 98px
+  background-color: $bg-dark-color
+
+.main__text__corner__text_discr
+  font-size: 12px
+  text-transform: uppercase
+
+.main__text__corner__image
+  height: 30px
+  width: 30px
+  margin-left: 12px
+  border-radius: 50%
+  border: 1.8px solid $text-gold-color
+
+.arrow__down
+  border: 1.8px solid $text-gold-color
+  border-width: 0 2px 2px 0
+  display: inline-block
+  margin: 7px 9px
+  padding: 4px
+  transform: rotate(45deg)
+

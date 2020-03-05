@@ -1,0 +1,51 @@
+body {
+  background-color: Wheat;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  background-color: Tan;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 20px;
+  text-align: center;
+  background-color: Tan;
+}
+
+li, ul {
+  background-color: Beige;
+}
+
+p, span, .italic, .underline, .line-through {
+  background-color: #fff;
+}
+
+.bordered {
+  border: double;
+  background-color: Beige;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+

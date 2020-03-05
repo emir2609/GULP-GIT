@@ -1,0 +1,234 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Verdana, arial, sans-serif;
+}
+
+.wrap1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000000;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1366px;
+}
+
+.image {
+  margin: 7.7rem 7.5rem 9.6rem 12.3rem;
+  width: 40.4rem;
+  height: 63rem;
+}
+
+.text {
+  margin: 13.7rem 23.8rem 23.1rem 5.49rem;
+}
+
+.text h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.text h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.text-discr {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+
+.text-price {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5.3rem;
+}
+
+.text-btn1 {
+  width: 17.5rem;
+  height: 6.7rem;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #f05a22;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.text-btn2 {
+  width: 28.7rem;
+  height: 6.7rem;
+  margin-left: 4.0rem;
+  padding: 0;
+  border: 2px solid #f05a22;
+  border-radius: 0.5rem;
+  color: #f05a22;
+  background-color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.section2 {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.wrap2-h2 {
+  padding-top: 8.9rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.wrap2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  padding-top: 9.1rem;
+  padding-bottom: 10.3rem;
+  color: #333333;
+  margin: 0 auto;
+  max-width: 1366px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24.1rem;
+  margin: auto;
+}
+
+.card-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.card-discr {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.section3 {
+  color: #333333;
+}
+
+.wrap3-h2 {
+  margin: 8.9rem auto;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+}
+
+.wrap3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto 11.1rem;
+  max-width: 1366px;
+}
+
+.item {
+  height: 25.1rem;
+  width: 25.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.image1 {
+  background: url(../img/3-1.png) no-repeat center center;
+  background-size: cover;
+}
+
+.image2 {
+  background: url(../img/3-2.png) no-repeat center center;
+  background-size: cover;
+}
+
+.image3 {
+  background: url(../img/3-3.png) no-repeat center center;
+  background-size: cover;
+}
+
+.image4 {
+  background: url(../img/3-4.png) no-repeat center center;
+  background-size: cover;
+}
+
+.image5 {
+  background: url(../img/3-5.png) no-repeat center center;
+  background-size: cover;
+}
+
+.image6 {
+  background: url(../img/3-6.png) no-repeat center center;
+  background-size: cover;
+}
+
+.image7 {
+  background: url(../img/3-7.png) no-repeat center center;
+  background-size: cover;
+}
+
+.image8 {
+  background: url(../img/3-8.png) no-repeat center center;
+  background-size: cover;
+}
